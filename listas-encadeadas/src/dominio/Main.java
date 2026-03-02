@@ -12,7 +12,7 @@ import listaencadeada.*;
  *
  * @author victoriocarvalho
  */
-public class progTest {
+public class Main {
 
     /**
      * @param args the command line arguments
