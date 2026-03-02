@@ -32,10 +32,10 @@ Para garantir que a IDE reconheça o projeto corretamente, siga estes passos:
 Caso prefira rodar via terminal sem usar o botão "Run" da IDE:
 
 **Para compilar:**
-* No Linux
+* No Linux: 
 javac src/*.java -d bin
 
-* No Windows (Powershell)
+* No Windows (Powershell): 
 javac (Get-ChildItem -Recurse src/*.java) -d bin
 
 **Para executar:**
