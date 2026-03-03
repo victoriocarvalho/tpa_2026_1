@@ -6,6 +6,8 @@
 package dominio;
 
 import java.util.Scanner;
+
+import colecao.IColecao;
 import listaencadeada.*;
 
 /**
@@ -29,6 +31,7 @@ public class Main {
             do{
                 System.out.println("Digite a matricula do aluno");
                 mat = scanner.nextInt();
+                scanner.nextLine();
                 System.out.println("Digite o nome do aluno");
                 nome = scanner.nextLine();
                 System.out.println("Digite a nota do aluno");
