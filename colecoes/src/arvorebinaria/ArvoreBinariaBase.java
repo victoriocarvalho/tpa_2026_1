@@ -11,32 +11,7 @@ public abstract class ArvoreBinariaBase<T> implements IColecao<T>{
         this.comparador = comparador;
     }
 
-    //Métodos da interface IColecao a serem implementados
-    @Override
-    public void adicionar(T novoValor) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'adicionar'");
-    }
-
-    @Override
-    public T pesquisar(T valor) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'pesquisar'");
-    }
-
-    @Override
-    public boolean remover(T valor) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'remover'");
-    }
-
-    @Override
-    public int quantidadeNos() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'quantidadeNos'");
-    }
-
-    //Métodos abstratos a serem implementados
+    //Métodos abstratos a serem implementados em adição aos métodos da Interface
     /**
      * Método que retorna a altura da árvore
      * @return Retorna a altura da árvore. Árvores só com raiz tem altura zero(0). Se raiz for nula retorne -1. 
