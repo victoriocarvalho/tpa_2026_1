@@ -56,4 +56,9 @@ public abstract class ArvoreBinariaBase<T> implements IColecao<T>{
      */
     public abstract String caminharEmOrdem();
 
+    @Override
+    public String toString(){
+        return caminharEmOrdem();
+    }
+
 }
